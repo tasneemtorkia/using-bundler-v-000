@@ -5,10 +5,9 @@ gem "hashie"
 gem "octokit", "~> 2.0"
 gem "awesome_print", :git => 'https://github.com/awesome-print/awesome_print'
 
-group => :development 
-gem 'pry'
+gem 'pry', :group => :development 
+
 group :test do 
 gem 'rspec'
 end 
 end 
-end
